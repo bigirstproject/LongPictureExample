@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center" >
+
+    <com.duowan.util.CustomImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff008892"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/img_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff008892"
+        android:src="@drawable/bb" >
+    </ImageView>
+
+</RelativeLayout>
